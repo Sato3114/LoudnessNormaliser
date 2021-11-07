@@ -3,7 +3,7 @@ import os
 import pyloudnorm as pyln
 import soundfile as sf
 
-test_path = '/Users/akimoto/Desktop/otoware.mp3'     # example audio file
+test_path = ''     # example audio file
 
 
 def loudnessnorm(pathaudio, peakwant=-1.0, loudnesswant=-13.0):
