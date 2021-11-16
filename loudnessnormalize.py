@@ -18,7 +18,7 @@ def loudnessnorm(pathaudio, peakwant=-1.0, loudnesswant=-13.0):
     duration = librosa.get_duration(filename=pathaudio)
 
     # Measure the loudness before normalization
-    meter = pyln.Meter(samplerate)   # create BS.1770-4 meter
+    meter = pyln.Meter(samplerate)   # create BS.1770-4 _
     loudness_before = meter.integrated_loudness(data)
 
     # Peak normalization
