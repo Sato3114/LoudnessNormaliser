@@ -14,5 +14,5 @@
 
 ## LICENSE
 
-This repository has been published under MIT License.  
+This repository has been published under LGPL-2.1 License.  
 In details, see [LICENSE](LICENSE).
